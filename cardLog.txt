@@ -1,0 +1,6 @@
+
+Front: What color is the sky? Back: blue
+Front: How far is the sun from the earth? Back: 93 million miles
+
+Full Text: The sky is blue. Partial: The sky is .... Cloze Deletion: blue
+Full Text: The sun is 93 million miles away from the earth. Partial: The sun is ... miles away from the earth. Cloze Deletion: 93 million
