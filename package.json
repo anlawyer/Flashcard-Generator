@@ -1,0 +1,28 @@
+{
+  "name": "flashcard-generator",
+  "version": "1.0.0",
+  "description": "flashcards",
+  "main": "BasicCLI.js",
+  "dependencies": {
+    "inquirer": "^3.3.0",
+    "mysql": "^2.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anlawyer/Flashcard-Generator.git"
+  },
+  "keywords": [
+    "flashcard",
+    "learning"
+  ],
+  "author": "alison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anlawyer/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/anlawyer/Flashcard-Generator#readme"
+}

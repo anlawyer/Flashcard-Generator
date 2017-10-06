@@ -33,36 +33,12 @@ var ClozeCard = function(text, cloze){
 	};
 
 	this.partial = partial;
-	
-	// console.log('\ninital full text:', this.fullText);
-	// console.log('partial:',this.partial);
-	// console.log('cloze:', this.cloze);
-}
-
-ClozeCard.prototype.toLog = function() {
-	var clozeLog = '\nFull Text: ' + this.fullText + ' Partial: ' +
-		this.partial + ' Cloze Deletion: ' + this.cloze;
-	
-	console.log(logTxt);
-
-	fs.appendFile('cardLog.txt', logTxt, function(err) {
-		if(err) {
-			console.log(err)
-		};
-	});
 };
 
 module.exports = ClozeCard;
 
-var card1 = new ClozeCard('The sky is blue.', 'blue');
-// var card2 = new ClozeCard('Frank is the best.', 'Frank');
+// example cards:
+// var card1 = new ClozeCard('The sky is blue.', 'blue');
 // var card3 = new ClozeCard('I like cats and dogs.', 'cats');
-//var card4 = new ClozeCard('I like cats and dogs.', 'cats and birds');
+// var card4 = new ClozeCard('I like cats and dogs.', 'cats and birds');
 // var card5 = new ClozeCard('The sun is 93 million miles away from the earth.', '93 million');
-// var card6 = ClozeCard('berkeley is a city.', 'berkeley')
-
-console.log(card1.fullText);
-console.log(card1.partial);
-console.log(card1.cloze);
-
-
